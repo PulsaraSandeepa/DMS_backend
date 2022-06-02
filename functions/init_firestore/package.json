@@ -1,0 +1,19 @@
+{
+  "name": "init_firestore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/init_firestore/src/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "yarn run yarn-build",
+    "init": "yarn run yarn-init",
+    "yarn-build": "tsc",
+    "yarn-init": "node lib/init_firestore/src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {}
+}

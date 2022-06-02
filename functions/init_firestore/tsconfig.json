@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "resolveJsonModule": true
+  },
+  "compileOnSave": true,
+  "include": ["src", "../src/common", "../src/shared"],
+  "files": ["../custom.request.d.ts", "../.env.json"]
+}
